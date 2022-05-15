@@ -1,0 +1,98 @@
+% !TEX program = xelatex
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{linespacing_fix}
+\renewcommand{\labelitemii}{$\circ$}
+
+\begin{document}
+
+\name{郭明明}
+\basicInfo{
+  % \phone{} \textperiodcentered\
+  \email{guomingming9@gmail.com} \textperiodcentered\
+  \github[imingx]{https://github.com/imingx} \textperiodcentered\
+  \homepage[ming.ac]{https://www.ming.ac}
+}
+
+\section{教育背景}
+\datedsubsection{\textbf{北京航空航天大学}, 中国}{2019.09 -- 现在}
+\role{本科，在读}{计算机科学与技术 GPA 3.76/4.00 排名 57/205}
+
+\section{相关项目}
+
+\datedsubsection{\textbf{FreeTalk}}{http://github.com/imingx/freetalk}
+
+FreeTalk课程平台（负责后端开发）
+
+\begin{itemize}
+  \item 支持课程评价与论坛讨论的选课平台，基于Django和Vue
+\end{itemize}
+
+\datedsubsection{\textbf{PaperDaily}}{http://github.com/se-mcdb}
+
+面向企业的专家推荐服务平台（负责后端开发与部署）
+
+\begin{itemize}
+
+  \item 可以根据企业需求提取关键词，利用SciBert匹配相关论文、专利与项目，并据此推荐专家
+  \item 基于Django、Vue和uni-app
+
+\end{itemize}
+
+\datedsubsection{\textbf{Compiler}}{http://github.com/imingx/compiler}
+
+基于CPP的类C语言编译器
+
+\begin{itemize}
+
+  \item 支持一维和二维数组、函数、循环、表达式的类C语言编译器，目标语言为MIPS汇编
+
+\end{itemize}
+
+\section{获奖情况}
+\subsection{\textbf{竞赛}}
+\begin{itemize}
+  \item \datedline{蓝桥杯软件类省赛（\textit{二等奖}）}{2021.06}
+  \item \datedline{第 25 届CCF-CSP 软件能力认证（\textit{单次排名 2.17\%，累计排名 2.27\%}）}{2022.03}
+\end{itemize}
+
+\subsection{\textbf{奖学金}}
+\begin{itemize}
+  \item \datedline{北航校级优秀生(\textit{前5\%})}{2020.09}
+  \item \datedline{北航本科生学习优秀奖学金（\textit{一等奖}）}{2020.11}
+  \item \datedline{北航本科生学科竞赛奖学金（\textit{二等奖}）}{2021.11}
+\end{itemize}
+
+\section{专业技能}
+\begin{itemize}
+  \item \textbf{编程语言}：C, C++, Java, Swift, Python, Verilog
+
+  \item \textbf{体系结构}：
+    \begin{itemize}
+      \item 了解流水线 CPU 原理，学习过 Verilog 
+    \end{itemize}
+
+  \item \textbf{应用开发}：
+    \begin{itemize}
+      \item 技术栈：Backend (Django)
+      \item 了解 MySQL 等工具；会使用 Linux、Vim 常见命令
+    \end{itemize}
+
+  \item \textbf{开发环境}：JetBrains IDE, VS Code, Conda, Homebrew；熟悉 Gitflow 协作流程
+\end{itemize}
+
+% \clearpage
+
+\section{其他}
+\begin{itemize}
+  \item \textbf{助教工作}：
+        \begin{itemize}
+          \item \datedline{\textbf{数据结构与程序设计}（北航信息类）}{2021.03 -- 2021.07}
+                \role{课程助教}{负责答疑和跟班辅导}
+        \end{itemize}
+  \item \textbf{社会实践}：志愿服务总时长 130 小时；担任北航微软俱乐部的运营部部长
+  \item \textbf{外语}：英语 (CET-6)
+\end{itemize}
+\end{document}
